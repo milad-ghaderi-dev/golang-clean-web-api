@@ -1,0 +1,7 @@
+# Dependency directories (below the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+*.log
