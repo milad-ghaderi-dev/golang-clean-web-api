@@ -14,4 +14,5 @@ func TestRouter(r *gin.RouterGroup) {
 	r.GET("/user/get-user-by-username/:username", h.UserByUsername)
 	r.GET("/user/:id/accounts", h.UserAccounts)
 
+	r.GET("/person", h.BodyBinder)
 }
